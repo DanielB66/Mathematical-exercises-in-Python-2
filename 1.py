@@ -1,0 +1,5 @@
+print("This program calculates the perimeter and the area of a square")
+a = float(input("Enter the length: "))
+b = float(input("Enter the width: "))
+print("The perimeter of the square is:", a*2+b*2)
+print("The area of the square is:", a*b)

@@ -1,0 +1,8 @@
+firstname = input('enter first name: ')
+lastname = input('enter last name: ')
+age = int(input('enter age: '))
+height = float(input('enter height: '))
+print(firstname, type(firstname))
+print(lastname, type(lastname))
+print(age, type(age))
+print(height, type(height))

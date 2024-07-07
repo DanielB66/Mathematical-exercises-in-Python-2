@@ -1,0 +1,12 @@
+import math
+print('enter first point')
+x1 = int(input('enter x1: '))
+y1 = int(input('enter y1: '))
+print('enter second point')
+x2 = int(input('enter x2: '))
+y2 = int(input('enter y2: '))
+print('enter third point')
+x3 = int(input('enter x3: '))
+y3 = int(input('enter y3: '))
+circumference = math.sqrt((x1-x2)**2+(y1-y2)**2)+math.sqrt((x1-x3)**2+(y1-y3)**2)+math.sqrt((x2-x3)**2+(y2-y3)**2)
+print('Circumference of triangle: ', round(circumference, 2))

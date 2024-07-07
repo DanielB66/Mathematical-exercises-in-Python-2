@@ -1,0 +1,10 @@
+import math
+num = float(input('enter a floating point number: '))
+int_num = int(num)
+print(int_num, type(int_num))
+ceil_num = math.ceil(num)
+print(ceil_num, type(ceil_num))
+floor_num = math.floor(num)
+print(floor_num, type(floor_num))
+round_num = round(num, 1)
+print(round_num, type(round_num))
